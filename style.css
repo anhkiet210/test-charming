@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    text-transform: uppercase;
+    user-zoom: calc(100% - 20px);
+}
+h1 small {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    user-select: none;
+}
+h1 b span{
+    display: inline-block;
+    white-space: pre;
+}
